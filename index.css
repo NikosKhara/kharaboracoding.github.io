@@ -1,0 +1,146 @@
+@font-face {
+  font-family: myFont;
+  src: url(Inter-Medium.ttf);
+}
+@font-face {
+  font-family: myFont2;
+  src: url(Inter-Regular.ttf);
+}
+* {
+    margin: 0px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+
+.div-div {
+
+    font-size: larger;
+}
+
+
+.vl {
+    border-left: 8px solid #ffffff;
+    height: 810px;    
+}
+
+.bl {
+    border-left: 8px solid #ffffff;
+    height: 810px; 
+    float : right;
+}
+.kl {
+    border: 8px solid #ffffff;
+}
+.hr-line {
+    border: 4px solid #ffffff;
+}
+
+.hr-line2 {
+    border: 12px solid #ffffff;
+}
+.heading-1 {
+  font-family: Georgia, 'Times New Roman', Times, serif, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, Arial, Helvetica;
+  font-style:normal;
+  font-size: 175%;
+  background-color: #ffffff;
+}
+.heading-2 {
+  font-family:Helvetica;
+  font-style:bold;
+  font-size: 175%;
+  background-color: #ffffff;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.a-1 {
+  text-decoration: none;
+  color: black;
+  padding-right: 75px;
+  padding-bottom: 100px;
+  font-family: myFont;
+  font-size: 134%;
+}
+.a-2 {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 100px;
+  font-family: myFont;
+  font-size: 134%;
+}
+.a-3 {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 100px;
+  font-family: myFont;
+  font-size: 134%;
+}
+.yes-div {
+  position: relative;
+  text-align: center;
+  
+}
+.middle-left {
+  position: absolute;
+  bottom: 650px;
+  right: 200px;
+  font-size:400%;
+  font-family: myFont2; 
+  background:local;
+  color:white;
+  text-orientation: sideways;
+}
+.middle-left2 {
+  position: absolute;
+  bottom: 580px;
+  right: 100px;
+  font-size:400%;
+  font-family: myFont2; 
+  background:local;
+  color:white;
+  text-orientation: sideways;
+}
+.middle-left3 {
+  position: absolute;
+  bottom: 510px;
+  right: 290px;
+  font-size:400%;
+  font-family: myFont2; 
+  background:local;
+  color:white;
+  text-orientation: sideways;
+}
+.p-1 {
+  font-family: myFont2;
+  padding-top:20px;
+  font-size: 200%;
+  padding-left: 60px;
+}
+.container {
+  position: relative;
+}
+.a-1:hover{
+  text-decoration: underline;
+  font-weight: 900;
+}
+.a-2:hover{
+  text-decoration: underline;
+  font-weight: 900;
+}
+.a-3:hover{
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+/*------------------------------------------*/
+
