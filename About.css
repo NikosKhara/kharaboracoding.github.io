@@ -90,6 +90,14 @@
     font-family: myFont;
     font-size: 100%;
   }
+  .a-4 {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 100px;
+    font-family: myFont;
+    font-size: 134%;
+    padding-right: 100px;
+  }
   .links:hover .button {
     text-decoration: underline;
     text-decoration: solid;
@@ -148,6 +156,10 @@
     font-weight: 900;
   }
   .a-3:hover{
+    text-decoration: underline;
+    font-weight: 900;
+  }
+  .a-4:hover{
     text-decoration: underline;
     font-weight: 900;
   }
